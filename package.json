@@ -1,19 +1,25 @@
 {
+	"author": "Dávid Balatoni <balcsida@gmail.com> (https://github.com/balcsida)",
+	"bugs": {
+		"url": "https://issues.liferay.com/"
+	},
 	"devDependencies": {
-		"gulp": "3.9.1",
-		"liferay-theme-tasks": "8.0.8",
-		"liferay-theme-deps-7.1": "8.0.8"
+		"gulp": "^3.9.1",
+		"liferay-theme-deps-7.1": "8.0.9",
+		"liferay-theme-tasks": "8.0.9"
 	},
 	"keywords": [
 		"liferay-theme"
 	],
+	"license": "MIT",
 	"liferayTheme": {
 		"baseTheme": "styled",
 		"screenshot": "",
+		"rubySass": false,
 		"templateLanguage": "ftl",
 		"version": "7.1"
 	},
 	"main": "package.json",
 	"name": "grow-theme",
-	"version": "1.0.0"
+	"version": "3.0.0"
 }

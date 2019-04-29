@@ -14,11 +14,11 @@
 
 <body class="${css_class}">
 
-<@liferay_ui["quick-access"] contentId="#main-content" />
-
-<@liferay_util["include"] page=body_top_include />
-
-<@liferay.control_menu />
+<#if show_dockbar>
+	<@liferay_ui["quick-access"] contentId="#main-content" />
+	<@liferay_util["include"] page=body_top_include />
+	<@liferay.control_menu />
+</#if>
 
 <div class="pt-0" id="wrapper">
 	<#if show_header>

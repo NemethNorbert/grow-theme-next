@@ -13,7 +13,7 @@
 	],
 	"scripts": {
 		"build": "gulp build"
-	}
+	},
 	"license": "MIT",
 	"liferayTheme": {
 		"baseTheme": "styled",
